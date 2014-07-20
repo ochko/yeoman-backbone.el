@@ -92,10 +92,10 @@
     ("service"     . "app/scripts/services/\\1.js")
     ("template"    . "app/scripts/templates/\\1.js")
     ("translation" . "app/scripts/translations/\\1.js")
-    ("view"        . "app/scripts/views/\\1View.js")
-    ("component"   . "app/scripts/views/components/\\1.js")
-    ("widget"      . "app/scripts/views/components/widgets/\\1Control.js")
     ("assembler"   . "app/scripts/views/components/assemblers/\\1Control.js")
+    ("widget"      . "app/scripts/views/components/widgets/\\1Control.js")
+    ("component"   . "app/scripts/views/components/\\1.js")
+    ("view"        . "app/scripts/views/\\1View.js")
     ("sass"        . "app/styles/sass/\\1.scss")
     )
   "Project directory structure used for finding files."
