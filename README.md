@@ -53,20 +53,20 @@ through `yeoman-backbone-jump-schema'.
 
 ### Key bindings
 
-`C-c y o` Open Collection
-`C-c y c` Open Controller
-`C-c y e` Open Error
-`C-c y h` Open Helper
-`C-c y x` Open Mixin
-`C-c y m` Open Model
-`C-c y n` Open Renderer
-`C-c y r` Open Route
-`C-c y S` Open Service
-`C-c y t` Open Template
-`C-c y i` Open Translation
-`C-c y v` Open View
-`C-c y p` Open Component
-`C-c y w` Open Widget
-`C-c y a` Open Assembler
-`C-c y s` Open Sass
-`C-c y k` Open Spec or target
+- `C-c y o` Open Collection
+- `C-c y c` Open Controller
+- `C-c y e` Open Error
+- `C-c y h` Open Helper
+- `C-c y x` Open Mixin
+- `C-c y m` Open Model
+- `C-c y n` Open Renderer
+- `C-c y r` Open Route
+- `C-c y S` Open Service
+- `C-c y t` Open Template
+- `C-c y i` Open Translation
+- `C-c y v` Open View
+- `C-c y p` Open Component
+- `C-c y w` Open Widget
+- `C-c y a` Open Assembler
+- `C-c y s` Open Sass
+- `C-c y k` Open Spec or target
