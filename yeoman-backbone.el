@@ -163,7 +163,7 @@
                                            (yeoman--current-project-root))))
     (block finding-type
       (loop for (type . pattern) in yeoman-backbone-jump-schema
-            if (string-match (replace-regexp-in-string "\\\\1" "\\\\(.*?\\\\)" pattern)  relative-path)
+            if (string-match (replace-regexp-in-string "\\\\1" "\\\\([a-zA-Z0-9]+\\\\)" pattern)  relative-path)
             do
             (setf basename (match-string 1 relative-path))
             (return-from finding-type basename))
