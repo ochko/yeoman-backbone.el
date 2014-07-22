@@ -266,11 +266,11 @@
 
 (defun yeoman-bb-open-template ()
   (interactive)
-  (yeoman-bb-open-file-by-type "template"))
+  (yeoman-bb--open-file-by-type "template"))
 
 (defun yeoman-bb-open-translation ()
   (interactive)
-  (yeoman-bb-open-file-by-type "translation"))
+  (yeoman-bb--open-file-by-type "translation"))
 
 (defun yeoman-bb-open-view ()
   (interactive)
