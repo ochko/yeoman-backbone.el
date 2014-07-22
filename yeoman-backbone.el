@@ -186,7 +186,7 @@
             do
             (find-file absolute-file)
             (return-from found-file absolute-file))
-      (yeoman-bb--find-file-in-dir (file-name-directory (car file-list))))))
+      (yeoman-bb--find-file-in-dir (file-name-directory (concat yo-bb-root (car file-list)))))))
 
 (defun yeoman-bb--open-mirror-file (list)
   (let ((yo-bb-root (yeoman--current-project-root))
