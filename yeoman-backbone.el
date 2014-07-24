@@ -318,7 +318,6 @@
 
 (define-minor-mode yeoman-backbone
   "Mode for navigating around yeoman-backbone applications"
-  nil " Yo" yeoman-backbone-keymap
-  :global t)
+  nil " Yo" yeoman-backbone-keymap)
 
 (provide 'yeoman-backbone)
