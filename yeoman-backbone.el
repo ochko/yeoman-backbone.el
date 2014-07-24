@@ -152,10 +152,11 @@
 
 (defun yeoman-bb--target-file-list (kind base)
   (let ((pattern (cdr (assoc kind yeoman-backbone-jump-schema))))
-    (list (replace-regexp-in-string "\\\\1" base pattern)
-          (replace-regexp-in-string "\\\\1" (yeoman--pluralize-noun base) pattern)
-          (replace-regexp-in-string "\\\\1" (yeoman--singularize-noun base) pattern))
-    ))
+    (if base
+        (list (replace-regexp-in-string "\\\\1" base pattern)
+              (replace-regexp-in-string "\\\\1" (yeoman--pluralize-noun base) pattern)
+              (replace-regexp-in-string "\\\\1" (yeoman--singularize-noun base) pattern))
+      (list (replace-regexp-in-string "\\\\1" "*" pattern)))))
 
 (defun yeoman-bb--current-file-base ()
   (let ((basename nil)
